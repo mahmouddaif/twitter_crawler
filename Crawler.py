@@ -189,7 +189,7 @@ if __name__ == "__main__":
                 print("not runnning")
                 running = datetime.now()
                 twitterStream.filter(languages=['ja'], track=words_list, is_async=True)
-                time.sleep(2)
+                time.sleep(3600)
                 
             
         except (ProtocolError, AttributeError):
