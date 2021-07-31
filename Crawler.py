@@ -179,7 +179,7 @@ if __name__ == "__main__":
     while True:
         try:
             now = datetime.now()
-            if twitterStream.running is True and (now.minute - running.minute) == 8: 
+            if twitterStream.running is True and (now.hour - running.hour) == 8: 
                 print("already been 8 minutes")
                 running = datetime.now()
                 twitterStream.disconnect()
@@ -189,7 +189,7 @@ if __name__ == "__main__":
                 print("not runnning")
                 running = datetime.now()
                 twitterStream.filter(languages=['ja'], track=words_list, is_async=True)
-                time.sleep(3600)
+                time.sleep(360)
                 
             
         except (ProtocolError, AttributeError):
