@@ -77,7 +77,7 @@ class listener(StreamListener):
         tweet = re.sub("\s\s+", " ", tweet)
 
 
-        username = all_data["user"]["screen_name"]
+        username = all_data["user"]["screen_name"].replace(",","")
         
         
         coordinates_long = "None"
