@@ -9,10 +9,10 @@ from datetime import datetime
 
 
 #consumer key, consumer secret, access token, access secret.
-ckey="xxlzzY0tph2dY5YHQcyDt0EsE"
-csecret="GTd05ExHrkmfvJz7zjqfI6OFhzhOTbJ3wMA4VmfIpxdy3hlwAX"
-atoken="185665986-db7p8ss7eAEZrT32bHqBIzi8ssfD8bRkoAm6t9PL"
-asecret="MCkxkHkjQ9wDroubx2CrJr1nL1wPQFZf4o3mD26J9MM34"
+ckey="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+csecret="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+atoken="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+asecret="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 class listener(StreamListener):
 
